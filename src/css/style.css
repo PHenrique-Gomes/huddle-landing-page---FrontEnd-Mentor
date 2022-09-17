@@ -7,6 +7,7 @@ html {
 body {
     background: url(../images/bg-desktop.svg) hsl(257, 40%, 49%);
     padding: 5px 70px 5px 70px;
+    height: 1vh;
 }
 
 .header {
@@ -58,6 +59,7 @@ body {
 }
 
 .main .info a {
+    box-shadow: 2px 2px 15px 1px rgba(100, 100, 111, 0.1);
     font-weight: 400;
     font-size: 16px;
     max-width: 170px;
@@ -82,11 +84,11 @@ body {
 }
 
 .footer .socials i {
-    width: 40px;
+    width: 30px;
     height: 100%;
     color: #fff;
     margin: 15px;
-    padding: 10px;
+    padding: 7px;
     border: 1px solid #fff;
     border-radius: 50%;
     text-align: center;
